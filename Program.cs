@@ -37,7 +37,7 @@ namespace Pokemon_scraper
 
             divide();
 
-            Console.WriteLine($"összes Pokémon erejének átlaga: {pokemons.Average(p => p.TotalPoints)}");
+            Console.WriteLine($"összes pokémon erejének átlaga: {pokemons.Average(p => p.TotalPoints)}");
         }
 
         private static void divide()
