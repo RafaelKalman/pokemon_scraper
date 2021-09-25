@@ -1,9 +1,5 @@
 ﻿using HtmlAgilityPack;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Pokemon_scraper
 {
@@ -29,7 +25,7 @@ namespace Pokemon_scraper
                 Pokemon pokemon = new Pokemon();
 
                 int counter = 0;
-                foreach(var data in tr.SelectNodes("td"))
+                foreach (var data in tr.SelectNodes("td"))
                 {
                     switch (counter)
                     {
